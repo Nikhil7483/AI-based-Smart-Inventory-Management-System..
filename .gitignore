@@ -1,0 +1,29 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+
+# Database (keep for local, Render re-seeds on deploy)
+*.db
+backend/data/
+
+# ML Models (auto-generated on startup)
+backend/data/models/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+frontend/.vercel/
+
+# Node
+node_modules/
