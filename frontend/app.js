@@ -8,7 +8,7 @@
 // ═══════════════════════════════════════════════════════════════
 
 // API Base URL — Update RENDER_BACKEND_URL after deploying backend to Render
-const RENDER_BACKEND_URL = "https://YOUR_RENDER_SERVICE_NAME.onrender.com";
+const RENDER_BACKEND_URL = "https://ai-based-smart-inventory-management-zwjx.onrender.com";
 const isLocal = ["localhost", "127.0.0.1"].includes(window.location.hostname);
 const API_BASE = isLocal
     ? window.location.origin + "/api"
